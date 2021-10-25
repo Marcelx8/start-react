@@ -7,7 +7,6 @@ import './App.css';
 
 const PokemonRow = ({ pokemon, onSelect }) => (
   <tr>
-    <td>{pokemon.id}</td>
     <td>{pokemon.name.english}</td>
     <td>{pokemon.type.join(', ')}</td>
     <td>
